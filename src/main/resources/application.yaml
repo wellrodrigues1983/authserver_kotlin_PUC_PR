@@ -1,0 +1,23 @@
+server:
+  servlet:
+    context-path: /api
+
+springdoc:
+  swagger-ui:
+    use-root-path: true
+
+spring:
+  application:
+    name: authserver
+  datasource:
+    url: jdbc:h2:mem:db
+    username: sa
+    password: sa
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+
+
+
