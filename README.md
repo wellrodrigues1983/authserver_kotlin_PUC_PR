@@ -7,6 +7,8 @@ Boot 4**, com autenticação **JWT (HS256)**, senhas em **BCrypt** e relação
 Projeto desenvolvido para a disciplina de **Pós-graduação em Desenvolvimento
 Mobile (PUC-PR)**.
 
+#Video do Projeto: https://youtu.be/XtPnuvhZZww
+
 ---
 
 ## Funcionalidades
