@@ -15,9 +15,23 @@ spring:
     password: sa
   jpa:
     show-sql: true
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
   h2:
     console:
       enabled: true
+
+app:
+  security:
+    jwt:
+      secret: ${JWT_SECRET:troque-este-segredo-por-uma-string-com-pelo-menos-32-bytes}
+      expiration-seconds: 3600
+      issuer: authserver
+    admin:
+      email: ${ADMIN_EMAIL:admin@authserver.local}
+      password: ${ADMIN_PASSWORD:admin123}
+      name: Administrador
 
 
 
